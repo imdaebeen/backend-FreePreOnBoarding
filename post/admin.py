@@ -7,4 +7,5 @@ class PostAdmin(admin.ModelAdmin):
         "title",
         "author",
         "created_at",
+        "id",
     )
