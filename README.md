@@ -1,9 +1,12 @@
+### Description
+```
 Django FrameWork rest_framework 기능을 활용하여 개발.
 serializers JSON 형태로 변환
 ListCreateAPIView,RetrieveUpdateDestroyAPIView CRUD
 permissions을 통해서 입력한 인원과 요청인원 비교 후 삭제/수정 가능
 Django REST framework JWT 토큰 인증
 PageNumberPagination page_size 만큼 페이징 가능
+```
 
 
 |  Endpoint      |     HTTP Method      |      CRUD Method      |       Result       |
