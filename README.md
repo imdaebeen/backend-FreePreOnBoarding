@@ -14,7 +14,8 @@ PageNumberPagination page_size 만큼 페이징 가능
 |api/v1/post/:id | PUT                  | UPDATE                | Update a post      | 
 |api/v1/post/:id | DELETE               | DELETE                | Delete a post      |
 
-
+ <html>
+      <head>
 Get all posts
 http http://127.0.0.1:8000/api/v1/post/ "Authorization: Bearer {YOUR_TOKEN}" 
 Get a single post
@@ -27,6 +28,8 @@ Partial update a post
 http PATCH http://127.0.0.1:8000/api/v1/post/{post_id}/ "Authorization: Bearer {YOUR_TOKEN}" title="posting title 1_수정" 
 Delete a post
 http DELETE http://127.0.0.1:8000/api/v1/post/{post_id}/ "Authorization: Bearer {YOUR_TOKEN}"
+        </head>
+    </html>
 
 Unit Test 작성.
 
